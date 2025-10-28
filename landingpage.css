@@ -1,0 +1,86 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+    font-family: -apple-system, helvetica, arial, sans-serif,\ Color \ Symbol;
+}
+header {
+  background-image: linear-gradient(
+    to right,
+    #571cec,
+    #7438f1,
+    #9155f5,
+    #a86bf9
+  );
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  z-index: 768;
+  
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.leftside {
+  display: flex;
+  align-items: center;
+}
+.logo{
+    color: #ffffff;
+    background-color: #ffffff;
+    border: none;
+
+}
+.header-list {
+  display: flex;
+  gap: 2em;
+}
+
+.header-list a {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+.header-list a:hover {
+  color: #af8efc;
+}
+.fa-chevron-down {
+  font-size: xx-small;
+  transition: transform 0.3s;
+}
+.fa-chevron-down:hover {
+  transform: rotate(180deg);
+}
+.rightside {
+  display: flex;
+  gap: 1em;
+}
+.btn2 {
+  border: thin solid #af8efc;
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #8d49f7;
+  font-weight: 800;
+}
+.btn1 {
+  border: thin solid #ffffff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #a86bf9;
+  color: #fff;
+  font-weight: 800;
+}
+.hero-sect{
+    background-image: url(./images/Presentation\ software\ for\ fast-moving\ teams\ _\ Pitch.html);
+    height: 90vh;
+}
