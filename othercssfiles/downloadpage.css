@@ -447,10 +447,12 @@ a{
         width: 380px;
     }
 }
-@media(max-width: 834px) {
-    header nav{
-        display: none;
-    }
+@media(max-width:540px){
+.herosect h1{
+  font-size: 1.8em;
+}
+}
+
     .cards{
         display: grid;
         grid-template-columns: 1fr;
@@ -485,8 +487,6 @@ a{
     .cards2 div{
         height: 300px;
     }
-
-}
 
 .anothersect{
     display: flex;
@@ -556,6 +556,12 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
     }
 }
+@media(max-width:380px){
+  .anothersect{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 
 
 
@@ -600,3 +606,14 @@ footer{
 .socials a:hover{
     color: #2B2A35;
 }
+@media(max-width:727px){
+  .leftside2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+    @media(max-width:350px){
+      footer{
+        display: block;
+      }
+    }
