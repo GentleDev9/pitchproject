@@ -290,6 +290,7 @@ display: none;
   }
   .fa-bars{
     display: block;
+    color: #000000;
   }
 }
 @media(max-width:468px) {
