@@ -119,13 +119,14 @@ li a{
 
 .btn1 {
   border: 1px solid #fff;
-  color: #fff;
+  color: #8D49F7;
+  border: thin solid #8D49F7;
   font-weight: 600;
 }
 
 .btn2 {
-  background: white;
-  color: #9155f5;
+  background: #8D49F7;
+  color: #fff;
   font-size: 1em;
   font-weight: 600;
 }
