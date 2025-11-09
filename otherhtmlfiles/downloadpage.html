@@ -324,4 +324,25 @@
                 </div>
         </footer>
 </body>
+  <script>
+  const menuIcon = document.querySelector(".menu-icon");
+  const headerList = document.querySelector(".header-list");
+
+  menuIcon.addEventListener("click", () => {
+    headerList.classList.toggle("active");
+  });
+
+  // Toggle dropdowns on mobile
+  const dropdownToggles = document.querySelectorAll(".header-list li");
+
+  dropdownToggles.forEach((item) => {
+    item.addEventListener("click", (e) => {
+      if (window.innerWidth <= 1000) {
+        e.preventDefault();
+        item.classList.toggle("open");
+      }
+    });
+  });
+</script>
+
 </html>
